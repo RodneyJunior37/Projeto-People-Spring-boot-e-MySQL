@@ -12,7 +12,7 @@ public interface PersonServices {
 
     PersonResponseDto register(PersonRequestDto personDto);
 
-    PersonResponseDto update(PersonRequestDto personDTO, Long id);
+    PersonResponseDto update(Long id, PersonRequestDto personDTO );
 
     String delete(Long id);
 }

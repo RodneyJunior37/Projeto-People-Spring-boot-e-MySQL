@@ -5,6 +5,10 @@ import com.rodney.people.dto.request.PersonRequestDto;
 import com.rodney.people.dto.response.PersonResponseDto;
 import com.rodney.people.entities.Person;
 import java.util.stream.Collectors;
+
+import org.springframework.stereotype.Component;
+
+@Component
 /* classe com metodos para mudança de dto pra person */
 public class PersonMapper {
     public Person toPerson(PersonRequestDto personDto){

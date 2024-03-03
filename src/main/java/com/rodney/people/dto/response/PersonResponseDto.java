@@ -2,6 +2,10 @@ package com.rodney.people.dto.response;
 
 import com.rodney.people.entities.Person;
 /*dados que estão voltando */
+
+import lombok.Getter;
+
+@Getter
 public class PersonResponseDto {
     private long id;
     
